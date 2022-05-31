@@ -1,0 +1,44 @@
+@charset "UTF-8";
+body{
+    height: 100vh;
+    background-image: url(imagens/234990.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: center top;
+    background-attachment: fixed;
+    
+}
+div.quad{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: aqua;
+}
+div#q1{
+    background-image: linear-gradient(orange, red);
+    margin: auto;
+}
+div#q2{
+    background-image: url(imagens/pexels-вальдемар-9876017.jpg);
+    background-size: 200px;
+    background-position: center center;
+}
+section{
+    background-color: blueviolet;
+    position: relative;
+    height: 500px;
+    padding: 10px;
+}
+article{
+    background-color: rgb(234, 255, 0);
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
